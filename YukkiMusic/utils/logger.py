@@ -19,17 +19,17 @@ async def play_logs(message, streamtype):
         else:
             chatusername = "Private Group"
         logger_text = f"""
-**YUKKI PLAY LOG**
+**Mᴜsɪᴄ Bᴏᴛ Pʟᴀʏ Lᴏɢs**
 
-**Chat:** {message.chat.title} [`{message.chat.id}`]
-**User:** {message.from_user.mention}
-**Username:** @{message.from_user.username}
-**User ID:** `{message.from_user.id}`
-**Chat Link:** {chatusername}
+**ᴄʜᴀᴛ:** {message.chat.title} [`{message.chat.id}`]
+**ᴜsᴇʀ:** {message.from_user.mention}
+**ᴜsᴇʀɴᴀᴍᴇ:** @{message.from_user.username}
+**ᴜsᴇʀ ɪᴅ:** `{message.from_user.id}`
+**ᴄʜᴀᴛ ʟɪɴᴋ:** {chatusername}
 
-**Query:** {message.text}
+**ᴏ̨ᴜᴇʀʏ:** {message.text}
 
-**StreamType:** {streamtype}"""
+**SᴛʀᴇᴀᴍTʏᴘᴇ:** {streamtype}"""
         if message.chat.id != LOG_GROUP_ID:
             try:
                 await app.send_message(
