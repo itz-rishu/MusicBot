@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/itz-rishu >.
 #
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# This file is part of < https://github.com/itz-rishu/MusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/itz-rishu/MusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -172,7 +172,7 @@ START_IMG_URL = getenv("START_IMG_URL", None)
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "assets/Ping.jpeg",
+    "assets/Ping.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
@@ -349,10 +349,3 @@ if TELEGRAM_VIDEO_URL:
                 "[ERROR] - Your TELEGRAM_VIDEO_URL url is wrong. Please ensure that it starts with https://"
             )
             sys.exit()
-
-
-# if not MUSIC_BOT_NAME.isascii():
-#     print(
-#         "[ERROR] - You've defined MUSIC_BOT_NAME wrong. Please don't use any special characters or Special font for this... Keep it simple and small."
-#     )
-#     sys.exit()
