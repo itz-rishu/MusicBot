@@ -52,6 +52,12 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
+                text=f"ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ",
+                url=f"https://t.me/BESTIES_ZONE",
+            )
+        ],
+        [
+            InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
             )
         ],
