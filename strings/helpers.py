@@ -122,54 +122,54 @@ HELP_5 = """🔰**<u>Aᴅᴅ & Rᴇᴍᴏᴠᴇ Sᴜᴅᴏ Usᴇʀs:</u>**
 /del_var - ᴅᴇʟᴇᴛᴇ ᴀɴʏ ᴠᴀʀ ᴏɴ ʜᴇʀᴏᴋᴜ ᴏʀ .env.
 /set_var [ᴠᴀʀ ɴᴀᴍᴇ] [ᴠᴀʟᴜᴇ] - sᴇᴛ ᴀ ᴠᴀʀ ᴏʀ ᴜᴘᴅᴀᴛᴇ ᴀ ᴠᴀʀ ᴏɴ ʜᴇʀᴏᴋᴜ ᴏʀ .env. sᴇᴘᴇʀᴀᴛᴇ ᴠᴀʀ ᴀɴᴅ ɪᴛs ᴠᴀʟᴜᴇ ᴡɪᴛʜ ᴀ sᴘᴀᴄᴇ.
 
-🤖**<u>BOT COMMANDS:</u>**
-/reboot - Reboot your Bot. 
-/update - Update Bot.
-/speedtest - Check server speeds
-/maintenance [enable / disable] 
-/logger [enable / disable] - Bot logs the searched queries in logger group.
-/get_log [Number of Lines] - Get log of your bot from heroku or vps. Works for both.
-/autoend [enable|disable] - Enable Auto stream end after 3 mins if no one is listening.
+🤖**<u>ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs:</u>**
+/reboot - ʀᴇʙᴏᴏᴛ ʏᴏᴜʀ ʙᴏᴛ. 
+/update - ᴜᴘᴅᴀᴛᴇ ʙᴏᴛ.
+/speedtest - ᴄʜᴇᴄᴋ sᴇʀᴠᴇʀ sᴘᴇᴇᴅs
+/maintenance [ᴇɴᴀʙʟᴇ / ᴅɪsᴀʙʟᴇ] 
+/logger [ᴇɴᴀʙʟᴇ / ᴅɪsᴀʙʟᴇ] - ʙᴏᴛ ʟᴏɢs ᴛʜᴇ sᴇᴀʀᴄʜᴇᴅ ǫᴜᴇʀɪᴇs ɪɴ ʟᴏɢɢᴇʀ ɢʀᴏᴜᴘ.
+/get_log [ɴᴜᴍʙᴇʀ ᴏғ ʟɪɴᴇs] - ɢᴇᴛ ʟᴏɢ ᴏғ ʏᴏᴜʀ ʙᴏᴛ ғʀᴏᴍ ʜᴇʀᴏᴋᴜ ᴏʀ ᴠᴘs. ᴡᴏʀᴋs ғᴏʀ ʙᴏᴛʜ.
+/autoend [ᴇɴᴀʙʟᴇ|ᴅɪsᴀʙʟᴇ] - ᴇɴᴀʙʟᴇ ᴀᴜᴛᴏ sᴛʀᴇᴀᴍ ᴇɴᴅ ᴀғᴛᴇʀ 3 ᴍɪɴs ɪғ ɴᴏ ᴏɴᴇ ɪs ʟɪsᴛᴇɴɪɴɢ.
 
-📈**<u>STATS COMMANDS:</u>**
-/activevoice - Check active voice chats on bot.
-/activevideo - Check active video calls on bot.
-/stats - Check Bots Stats
+📈**<u>sᴛᴀᴛs ᴄᴏᴍᴍᴀɴᴅs:</u>**
+/activevoice - ᴄʜᴇᴄᴋ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛs ᴏɴ ʙᴏᴛ.
+/activevideo - ᴄʜᴇᴄᴋ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏ ᴄᴀʟʟs ᴏɴ ʙᴏᴛ.
+/stats - ᴄʜᴇᴄᴋ ʙᴏᴛs sᴛᴀᴛs
 
-⚠️**<u>BLACKLIST CHAT FUNCTION:</u>**
-/blacklistchat [CHAT_ID] - Blacklist any chat from using Music Bot
-/whitelistchat [CHAT_ID] - Whitelist any blacklisted chat from using Music Bot
-/blacklistedchat - Check all blacklisted chats.
+⚠️**<u>ʙʟᴀᴄᴋʟɪsᴛ ᴄʜᴀᴛ ғᴜɴᴄᴛɪᴏɴ:</u>**
+/blacklistchat [ᴄʜᴀᴛ_ɪᴅ] - ʙʟᴀᴄᴋʟɪsᴛ ᴀɴʏ ᴄʜᴀᴛ ғʀᴏᴍ ᴜsɪɴɢ ᴍᴜsɪᴄ ʙᴏᴛ
+/whitelistchat [ᴄʜᴀᴛ_ɪᴅ] - ᴡʜɪᴛᴇʟɪsᴛ ᴀɴʏ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛ ғʀᴏᴍ ᴜsɪɴɢ ᴍᴜsɪᴄ ʙᴏᴛ
+/blacklistedchat - ᴄʜᴇᴄᴋ ᴀʟʟ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛs.
 
-👤**<u>BLOCKED FUNCTION:</u>**
-/block [Username or Reply to a user] - Prevents a user from using bot commands.
-/unblock [Username or Reply to a user] - Remove a user from Bot's Blocked List.
-/blockedusers - Check blocked Users Lists
+👤**<u>ʙʟᴏᴄᴋᴇᴅ ғᴜɴᴄᴛɪᴏɴ:</u>**
+/block [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] - ᴘʀᴇᴠᴇɴᴛs ᴀ ᴜsᴇʀ ғʀᴏᴍ ᴜsɪɴɢ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs.
+/unblock [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] - ʀᴇᴍᴏᴠᴇ ᴀ ᴜsᴇʀ ғʀᴏᴍ ʙᴏᴛ's ʙʟᴏᴄᴋᴇᴅ ʟɪsᴛ.
+/blockedusers - ᴄʜᴇᴄᴋ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs ʟɪsᴛs
 
-👤**<u>GBAN FUNCTION:</u>**
-/gban [Username or Reply to a user] - Gban a user from bot's served chat and stop him from using your bot.
-/ungban [Username or Reply to a user] - Remove a user from Bot's gbanned List and allow him for using your bot
-/gbannedusers - Check Gbanned Users Lists
+👤**<u>ɢʙᴀɴ ғᴜɴᴄᴛɪᴏɴ:</u>**
+/gban [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] - ɢʙᴀɴ ᴀ ᴜsᴇʀ ғʀᴏᴍ ʙᴏᴛ's sᴇʀᴠᴇᴅ ᴄʜᴀᴛ ᴀɴᴅ sᴛᴏᴘ ʜɪᴍ ғʀᴏᴍ ᴜsɪɴɢ ʏᴏᴜʀ ʙᴏᴛ.
+/ungban [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] - ʀᴇᴍᴏᴠᴇ ᴀ ᴜsᴇʀ ғʀᴏᴍ ʙᴏᴛ's ɢʙᴀɴɴᴇᴅ ʟɪsᴛ ᴀɴᴅ ᴀʟʟᴏᴡ ʜɪᴍ ғᴏʀ ᴜsɪɴɢ ʏᴏᴜʀ ʙᴏᴛ
+/gbannedusers - ᴄʜᴇᴄᴋ ɢʙᴀɴɴᴇᴅ ᴜsᴇʀs ʟɪsᴛs
 
-🎥**<u>VIDEOCALLS FUNCTION:</u>**
-/set_video_limit [Number of Chats] - Set a maximum Number of Chats allowed for Video Calls at a time. Default to 3 chats.
-/videomode [download|m3u8] - If download mode is enabled, Bot will download videos instead of playing them in M3u8 form. ByDefault to M3u8. You can use download mode when any query doesnt plays in m3u8 mode.
+🎥**<u>ᴠɪᴅᴇᴏᴄᴀʟʟs ғᴜɴᴄᴛɪᴏɴ:</u>**
+/set_video_limit [ɴᴜᴍʙᴇʀ ᴏғ ᴄʜᴀᴛs] - sᴇᴛ ᴀ ᴍᴀxɪᴍᴜᴍ ɴᴜᴍʙᴇʀ ᴏғ ᴄʜᴀᴛs ᴀʟʟᴏᴡᴇᴅ ғᴏʀ ᴠɪᴅᴇᴏ ᴄᴀʟʟs ᴀᴛ ᴀ ᴛɪᴍᴇ. ᴅᴇғᴀᴜʟᴛ ᴛᴏ 3 ᴄʜᴀᴛs.
+/videomode [ᴅᴏᴡɴʟᴏᴀᴅ|ᴍ3ᴜ8] - ɪғ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴇ ɪs ᴇɴᴀʙʟᴇᴅ, ʙᴏᴛ ᴡɪʟʟ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏs ɪɴsᴛᴇᴀᴅ ᴏғ ᴘʟᴀʏɪɴɢ ᴛʜᴇᴍ ɪɴ ᴍ3ᴜ8 ғᴏʀᴍ. ʙʏᴅᴇғᴀᴜʟᴛ ᴛᴏ ᴍ3ᴜ8. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴇ ᴡʜᴇɴ ᴀɴʏ ǫᴜᴇʀʏ ᴅᴏᴇsɴᴛ ᴘʟᴀʏs ɪɴ ᴍ3ᴜ8 ᴍᴏᴅᴇ.
 
-⚡️**<u>PRIVATE BOT FUNCTION:</u>**
-/authorize [CHAT_ID] - Allow a chat for using your bot.
-/unauthorize [CHAT_ID] - Disallow a chat from using your bot.
-/authorized - Check all allowed chats of your bot.
+⚡️**<u>ᴘʀɪᴠᴀᴛᴇ ʙᴏᴛ ғᴜɴᴄᴛɪᴏɴ:</u>**
+/authorize [ᴄʜᴀᴛ_ɪᴅ] - ᴀʟʟᴏᴡ ᴀ ᴄʜᴀᴛ ғᴏʀ ᴜsɪɴɢ ʏᴏᴜʀ ʙᴏᴛ.
+/unauthorize [ᴄʜᴀᴛ_ɪᴅ] - ᴅɪsᴀʟʟᴏᴡ ᴀ ᴄʜᴀᴛ ғʀᴏᴍ ᴜsɪɴɢ ʏᴏᴜʀ ʙᴏᴛ.
+/authorized - ᴄʜᴇᴄᴋ ᴀʟʟ ᴀʟʟᴏᴡᴇᴅ ᴄʜᴀᴛs ᴏғ ʏᴏᴜʀ ʙᴏᴛ.
 
-🌐**<u>BROADCAST FUNCTION:</u>**
-/broadcast [Message or Reply to a Message] - Broadcast any message to Bot's Served Chats.
+🌐**<u>ʙʀᴏᴀᴅᴄᴀsᴛ ғᴜɴᴄᴛɪᴏɴ:</u>**
+/broadcast [ᴍᴇssᴀɢᴇ ᴏʀ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ] - ʙʀᴏᴀᴅᴄᴀsᴛ ᴀɴʏ ᴍᴇssᴀɢᴇ ᴛᴏ ʙᴏᴛ's sᴇʀᴠᴇᴅ ᴄʜᴀᴛs.
 
-<u>options for broadcast:</u>
-**-pin** : This will pin your message 
-**-pinloud** : This will pin your message with loud notification
-**-user** : This will broadcast your message to the users who have started your bot.
-**-assistant** : This will broadcast your message from assistant account of your bot.
-**-nobot** : This will force your bot to not broadcast message
+<u>ᴏᴘᴛɪᴏɴs ғᴏʀ ʙʀᴏᴀᴅᴄᴀsᴛ:</u>
+**-pin** : ᴛʜɪs ᴡɪʟʟ ᴘɪɴ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ 
+**-pinloud** : ᴛʜɪs ᴡɪʟʟ ᴘɪɴ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ ᴡɪᴛʜ ʟᴏᴜᴅ ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴ
+**-user** : ᴛʜɪs ᴡɪʟʟ ʙʀᴏᴀᴅᴄᴀsᴛ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴛʜᴇ ᴜsᴇʀs ᴡʜᴏ ʜᴀᴠᴇ sᴛᴀʀᴛᴇᴅ ʏᴏᴜʀ ʙᴏᴛ.
+**-assistant** : ᴛʜɪs ᴡɪʟʟ ʙʀᴏᴀᴅᴄᴀsᴛ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ ғʀᴏᴍ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ᴏғ ʏᴏᴜʀ ʙᴏᴛ.
+**-nobot** : ᴛʜɪs ᴡɪʟʟ ғᴏʀᴄᴇ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏ ɴᴏᴛ ʙʀᴏᴀᴅᴄᴀsᴛ ᴍᴇssᴀɢᴇ
 
-**Example:** `/broadcast -user -assistant -pin Hello Testing`
+**ᴇxᴀᴍᴘʟᴇ:** `/broadcast -user -assistant -pin Hello Testing`
 
 """
