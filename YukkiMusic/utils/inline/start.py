@@ -59,7 +59,7 @@ def start_pannel(_):
 
 
 def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
-buttons = [
+    buttons = [
         [
             InlineKeyboardButton(
                 text=_["S_B_8"], callback_data="settings_back_helper"
@@ -94,7 +94,7 @@ buttons = [
                     )
                 ]
             )
-buttons.append(
+    buttons.append(
         [
             InlineKeyboardButton(
                 text=_["S_B_5"],
@@ -102,7 +102,6 @@ buttons.append(
             )
         ]
     )
-    
     if GITHUB_REPO and OWNER:
         buttons.append(
             [
@@ -129,7 +128,7 @@ buttons.append(
                     ),
                 ]
             )
-#     buttons.append(
-#         [InlineKeyboardButton(text=_["ST_B_6"], callback_data="LG")]
-#     )
+    buttons.append(
+        [InlineKeyboardButton(text=_["ST_B_6"], callback_data="LG")]
+    )
     return buttons
