@@ -59,14 +59,6 @@ def start_pannel(_):
 
 
 def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
-buttons.append(       
-        [
-            InlineKeyboardButton(
-                text=_["S_B_5"],
-                url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-            )
-        ]
-)
 buttons = [
         [
             InlineKeyboardButton(
@@ -102,6 +94,14 @@ buttons = [
                     )
                 ]
             )
+buttons.append(
+        [
+            InlineKeyboardButton(
+                text=_["S_B_5"],
+                url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+            )
+        ]
+    )
     
     if GITHUB_REPO and OWNER:
         buttons.append(
