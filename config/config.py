@@ -177,7 +177,7 @@ PING_IMG_URL = getenv(
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/b1428b72961c86767460a.jpg",
+    "assets/Playlist.png",
 )
 
 GLOBAL_IMG_URL = getenv(
@@ -282,7 +282,7 @@ if PING_IMG_URL:
             sys.exit()
 
 if PLAYLIST_IMG_URL:
-    if PLAYLIST_IMG_URL != "https://te.legra.ph/file/b1428b72961c86767460a.jpg":
+    if PLAYLIST_IMG_URL != "assets/Playlist.png":
         if not re.match("(?:http|https)://", PLAYLIST_IMG_URL):
             print(
                 "[ERROR] - Your PLAYLIST_IMG_URL url is wrong. Please ensure that it starts with https://"
