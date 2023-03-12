@@ -27,7 +27,7 @@ async def play_logs(message, streamtype):
 **ᴜsᴇʀ ɪᴅ:** `{message.from_user.id}`
 **ᴄʜᴀᴛ ʟɪɴᴋ:** {chatusername}
 
-**ᴏ̨ᴜᴇʀʏ:** {message.text}
+**ǫᴜᴇʀʏ:** {message.text}
 
 **SᴛʀᴇᴀᴍTʏᴘᴇ:** {streamtype}"""
         if message.chat.id != LOG_GROUP_ID:
