@@ -115,7 +115,7 @@ async def gstats_global(client, message: Message, _):
         vidid,
     ) = await YouTube.details(videoid, True)
     title = title.title()
-    final = f"Top Most Played Track on {MUSIC_BOT_NAME}\n\n**Title:** {title}\n\nPlayed** {co} **times"
+    final = f"Tᴏᴘ Mᴏsᴛ Pʟᴀʏᴇᴅ Tʀᴀᴄᴋ ᴏɴ {MUSIC_BOT_NAME}\n\n**ᴛɪᴛʟᴇ:** {title}\n\nPlayed** {co} **times"
     upl = get_stats_markup(
         _, True if message.from_user.id in SUDOERS else False
     )
@@ -281,23 +281,23 @@ async def overall_stats(client, CallbackQuery, _):
     else:
         ass = "No"
     cm = config.CLEANMODE_DELETE_MINS
-    text = f"""**Bot's Stats and Information:**
+    text = f"""**Bᴏᴛ's Sᴛᴀᴛs ᴀɴᴅ Iɴғᴏʀᴍᴀᴛɪᴏɴ:**
 
-**Imported Modules:** {mod}
-**Served Chats:** {served_chats} 
-**Served Users:** {served_users} 
-**Blocked Users:** {blocked} 
-**Sudo Users:** {sudoers} 
+**ɪᴍᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇs:** {mod}
+**sᴇʀᴠᴇᴅ ᴄʜᴀᴛs:** {served_chats} 
+**sᴇʀᴠᴇᴅ ᴜsᴇʀs:** {served_users} 
+**ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs:** {blocked} 
+**sᴜᴅᴏ ᴜsᴇʀs:** {sudoers} 
     
-**Total Queries:** {total_queries} 
-**Total Assistants:** {assistant}
-**Auto Leaving Assistant:** {ass}
-**Cleanmode duration:** {cm} Mins
+**ᴛᴏᴛᴀʟ ǫᴜᴇʀɪᴇs:** {total_queries} 
+**ᴛᴏᴛᴀʟ ᴀssɪsᴛᴀɴᴛs:** {assistant}
+**ᴀᴜᴛᴏ ʟᴇᴀᴠɪɴɢ ᴀssɪsᴛᴀɴᴛ:** {ass}
+**ᴄʟᴇᴀɴᴍᴏᴅᴇ ᴅᴜʀᴀᴛɪᴏɴ:** {cm} Mins
 
-**Play Duration Limit:** {play_duration} Mins
-**Song Download Limit:** {song} Mins
-**Bot's Server Playlist Limit:** {playlist_limit}
-**Playlist Play Limit:** {fetch_playlist}"""
+**ᴘʟᴀʏ ᴅᴜʀᴀᴛɪᴏɴ ʟɪᴍɪᴛ:** {play_duration} Mins
+**sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪᴍɪᴛ:** {song} Mins
+**ʙᴏᴛ's sᴇʀᴠᴇʀ ᴘʟᴀʏʟɪsᴛ ʟɪᴍɪᴛ:** {playlist_limit}
+**ᴘʟᴀʏʟɪsᴛ ᴘʟᴀʏ ʟɪᴍɪᴛ:** {fetch_playlist}"""
     med = InputMediaPhoto(media=config.STATS_IMG_URL, caption=text)
     try:
         await CallbackQuery.edit_message_media(
@@ -366,35 +366,35 @@ async def overall_stats(client, CallbackQuery, _):
     total_queries = await get_queries()
     blocked = len(BANNED_USERS)
     sudoers = len(await get_sudoers())
-    text = f""" **Bot's Stats and Information:**
+    text = f""" **Bᴏᴛ's Sᴛᴀᴛs ᴀɴᴅ Iɴғᴏʀᴍᴀᴛɪᴏɴ:**
 
-**Imported Modules:** {mod}
-**Platform:** {sc}
-**Ram:** {ram}
-**Physical Cores:** {p_core}
-**Total Cores:** {t_core}
-**Cpu Frequency:** {cpu_freq}
+**ɪᴍᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇs:** {mod}
+**ᴘʟᴀᴛғᴏʀᴍ:** {sc}
+**ʀᴀᴍ:** {ram}
+**ᴘʜʏsɪᴄᴀʟ ᴄᴏʀᴇs:** {p_core}
+**ᴛᴏᴛᴀʟ ᴄᴏʀᴇs:** {t_core}
+**ᴄᴘᴜ ғʀᴇǫᴜᴇɴᴄʏ:** {cpu_freq}
 
-**Python Version :** {pyver.split()[0]}
-**Pyrogram Version :** {pyrover}
-**Py-TgCalls Version :** {pytgver}
+**ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** {pyver.split()[0]}
+**ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** {pyrover}
+**ᴘʏ-ᴛɢᴄᴀʟʟs ᴠᴇʀsɪᴏɴ :** {pytgver}
 
-**Storage Avail:** {total[:4]} GiB
-**Storage Used:** {used[:4]} GiB
-**Storage Left:** {free[:4]} GiB
+**sᴛᴏʀᴀɢᴇ ᴀᴠᴀɪʟ:** {total[:4]} GiB
+**sᴛᴏʀᴀɢᴇ ᴜsᴇᴅ:** {used[:4]} GiB
+**sᴛᴏʀᴀɢᴇ ʟᴇғᴛ:** {free[:4]} GiB
 
-**Served Chats:** {served_chats} 
-**Served Users:** {served_users} 
-**Blocked Users:** {blocked} 
-**Sudo Users:** {sudoers} 
+**sᴇʀᴠᴇᴅ ᴄʜᴀᴛs:** {served_chats} 
+**sᴇʀᴠᴇᴅ ᴜsᴇʀs:** {served_users} 
+**ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs:** {blocked} 
+**sᴜᴅᴏ ᴜsᴇʀs:** {sudoers} 
 
-**Mongo Uptime:** {mongouptime[:4]} Days
-**Total DB Size:** {datasize[:6]} Mb
-**Total DB Storage:** {storage} Mb
-**Total DB Collections:** {collections}
-**Total DB Keys:** {objects}
-**Total DB Queries:** `{query}`
-**Total Bot Queries:** `{total_queries} `
+**ᴍᴏɴɢᴏ ᴜᴘᴛɪᴍᴇ:** {mongouptime[:4]} Days
+**ᴛᴏᴛᴀʟ ᴅʙ sɪᴢᴇ:** {datasize[:6]} Mb
+**ᴛᴏᴛᴀʟ ᴅʙ sᴛᴏʀᴀɢᴇ:** {storage} Mb
+**ᴛᴏᴛᴀʟ ᴅʙ ᴄᴏʟʟᴇᴄᴛɪᴏɴs:** {collections}
+**ᴛᴏᴛᴀʟ ᴅʙ ᴋᴇʏs:** {objects}
+**ᴛᴏᴛᴀʟ ᴅʙ ǫᴜᴇʀɪᴇs:** `{query}`
+**ᴛᴏᴛᴀʟ ʙᴏᴛ ǫᴜᴇʀɪᴇs:** `{total_queries} `
     """
     med = InputMediaPhoto(media=config.STATS_IMG_URL, caption=text)
     try:
