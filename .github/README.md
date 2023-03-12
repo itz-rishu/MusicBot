@@ -1,13 +1,27 @@
-<img src="https://telegra.ph/file/c0e014ff34f34d1056627.png" align="right" width="200" height="200"/>
+<h1 align="center"> ❝𝐓𝐡𝐞 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐕𝐂 𝐌𝐮𝐬𝐢𝐜 𝐏𝐥𝐚𝐲𝐞𝐫 𝐁𝐨𝐭❞ </h1>
 
-# Yukki Music Bot <img src="https://img.shields.io/github/v/release/TeamYukki/YukkiMusicBot?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
+<p align="center"><img src="https://te.legra.ph/file/94f9badecf31b9a855f0a.jpg" align="center"/></p>
 
-[Yukki Music Bot](https://github.com/TeamYukki/YukkiMusicBot) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
+<p align = "center">
+<a href = "https://python.org">
+<img src = "https://forthebadge.com/images/badges/made-with-python.svg">
+</a>
+</p>
 
-* Youtube, Soundcloud, Apple Music, Spotify, Resso, Live Streams and Telegram Audios & Videos support.
-* Written from scratch, making it stable and less crashes with attractive thumbnails.
-* Loop, Seek, Shuffle, Specific Skip, Playlists etc support
-* Multi-Language support
+<p align = "center">
+<a href = "https://github.com/itz-rishu/MusicBot">
+<img src = "https://forthebadge.com/images/badges/open-source.svg">
+</a>
+</p>
+
+# 🦋 𝐀𝐚𝐫𝐨𝐡𝐢 ✘ 𝐌𝐮𝐬𝐢𝐜 🦋
+
+[Aᴀʀᴏʜɪ Mᴜsɪᴄ Bᴏᴛ](https://github.com/itz-rishu/MusicBot) ɪs ᴀ Pᴏᴡᴇʀғᴜʟ Tᴇʟᴇɢʀᴀᴍ Mᴜsɪᴄ+Vɪᴅᴇᴏ Bᴏᴛ ᴡʀɪᴛᴛᴇɴ ɪɴ Pʏᴛʜᴏɴ ᴜsɪɴɢ Pʏʀᴏɢʀᴀᴍ ᴀɴᴅ Pʏ-Tɢᴄᴀʟʟs ʙʏ ᴡʜɪᴄʜ ʏᴏᴜ ᴄᴀɴ sᴛʀᴇᴀᴍ sᴏɴɢs, ᴠɪᴅᴇᴏ ᴀɴᴅ ᴇᴠᴇɴ ʟɪᴠᴇ sᴛʀᴇᴀᴍs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴄᴀʟʟs ᴠɪᴀ ᴠᴀʀɪᴏᴜs sᴏᴜʀᴄᴇs.
+
+* Yᴏᴜᴛᴜʙᴇ, Sᴏᴜɴᴅᴄʟᴏᴜᴅ, Aᴘᴘʟᴇ Mᴜsɪᴄ, Sᴘᴏᴛɪғʏ, Rᴇssᴏ, Lɪᴠᴇ Sᴛʀᴇᴀᴍs ᴀɴᴅ Tᴇʟᴇɢʀᴀᴍ Aᴜᴅɪᴏs & Vɪᴅᴇᴏs sᴜᴘᴘᴏʀᴛ.
+* Wʀɪᴛᴛᴇɴ ғʀᴏᴍ sᴄʀᴀᴛᴄʜ, ᴍᴀᴋɪɴɢ ɪᴛ sᴛᴀʙʟᴇ ᴀɴᴅ ʟᴇss ᴄʀᴀsʜᴇs ᴡɪᴛʜ ᴀᴛᴛʀᴀᴄᴛɪᴠᴇ ᴛʜᴜᴍʙɴᴀɪʟs.
+* Lᴏᴏᴘ, Sᴇᴇᴋ, Sʜᴜғғʟᴇ, Sᴘᴇᴄɪғɪᴄ Sᴋɪᴘ, Pʟᴀʏʟɪsᴛs ᴇᴛᴄ sᴜᴘᴘᴏʀᴛ
+* Mᴜʟᴛɪ-Lᴀɴɢᴜᴀɢᴇ sᴜᴘᴘᴏʀᴛ
 
 
 # ⚡️ Getting Started [[Documentation](https://notreallyshikhar.gitbook.io/yukkimusicbot/)]
