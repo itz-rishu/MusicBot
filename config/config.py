@@ -177,7 +177,7 @@ PING_IMG_URL = getenv(
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "assets/Playlist.jpeg",
+    "https://te.legra.ph/file/b1428b72961c86767460a.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
@@ -274,7 +274,7 @@ if GITHUB_REPO:
 
 
 if PING_IMG_URL:
-    if PING_IMG_URL != "assets/Ping.jpeg":
+    if PING_IMG_URL != "https://te.legra.ph/file/94f9badecf31b9a855f0a.jpg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
             print(
                 "[ERROR] - Your PING_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -282,7 +282,7 @@ if PING_IMG_URL:
             sys.exit()
 
 if PLAYLIST_IMG_URL:
-    if PLAYLIST_IMG_URL != "assets/Playlist.jpeg":
+    if PLAYLIST_IMG_URL != "https://te.legra.ph/file/b1428b72961c86767460a.jpg":
         if not re.match("(?:http|https)://", PLAYLIST_IMG_URL):
             print(
                 "[ERROR] - Your PLAYLIST_IMG_URL url is wrong. Please ensure that it starts with https://"
